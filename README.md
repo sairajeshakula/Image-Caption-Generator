@@ -22,4 +22,21 @@ Download the dataset from [Kaggle](https://www.kaggle.com/adityajn105/flickr8k) 
   - Images
     - (image files)
   - captions.txt
+## Scope of Work
+Data Collection and Preprocessing:
+
+Utilize the Flickr8k Dataset, which contains a diverse collection of images with corresponding captions.
+Preprocess the images to standardize size, format, and quality, and tokenize the captions.
+Feature Extraction:
+
+Leverage the VGG16 model, pretrained on ImageNet, to extract high-level features from images.
+Fine-tune the VGG16 model to enhance feature representation.
+Caption Generation Model:
+
+Develop an LSTM-based RNN to generate captions from the extracted image features.
+Train the model on the preprocessed image-caption dataset, integrating VGG16 and LSTM.
+Evaluation:
+
+Evaluate the model’s performance using the BLEU score to measure the quality of generated captions.
+Optimize the model for better accuracy and faster inference times.
 
